@@ -1,30 +1,14 @@
 ﻿{
   "$schema": "https://json.schemastore.org/launchsettings.json",
-  "iisSettings": {
-    "windowsAuthentication": false,
-    "anonymousAuthentication": true,
-    "iisExpress": {
-      "applicationUrl": "http://localhost:1863",
-      "sslPort": 44347
-    }
-  },
   "profiles": {
     "SchemaApi.App": {
       "commandName": "Project",
-      "dotnetRunMessages": true,
-      "launchBrowser": true,
-      "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:7134;http://localhost:5097",
+      "dotnetRunMessages": false,
+      "applicationUrl": "http://localhost:5097",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
-    },
-    "IIS Express": {
-      "commandName": "IISExpress",
-      "launchBrowser": true,
-      "launchUrl": "swagger",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SCHEMA_URL_CHARLIE": "https://app.docendo.dk/calendars/ical/8486468c-e3e8-4458-af6e-2de05fd9fe1b",
+        "SCHEMA_URL_CLARA": "https://app.docendo.dk/calendars/ical/c95bb58c-ae9a-4239-994e-43f7ef8f8e95"
       }
     }
   }
